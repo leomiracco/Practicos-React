@@ -3,8 +3,10 @@ export const taskListReducer = (initialState = [], action)=>{
     case 'addTask':
       if(JSON.parse(localStorage.getItem('taskList')).length > 0){
         initialState = JSON.parse(localStorage.getItem('taskList'));
+        return [...initialState, checkRepeatedNumber(initialState, action.payload)];
+      }else{
+        return [...initialState, action.payload];
       }
-      return [...initialState, checkRepeatedNumber(initialState, action.payload)];
     case 'removeTask':
       return initialState.filter((task)=>task.id !== action.payload);
     case 'removeAllTask':

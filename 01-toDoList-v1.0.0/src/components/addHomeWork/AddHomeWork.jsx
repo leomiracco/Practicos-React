@@ -12,6 +12,9 @@ export const AddHomeWork = ({onNewTask})=>{
   const onFormSubmit = (e)=>{
     e.preventDefault();
     if(description.length > 0){
+      if(JSON.parse(localStorage.getItem('taskList')).length === 0){
+        counter = 0;
+      }
       const newTask = {
         // id: new Date().getTime(),
         id: ++counter,
