@@ -1,0 +1,94 @@
+.main-todopage{
+  /* border: 1px solid blue; */
+  background-color: hsl(350, 100%, 93%);
+  min-height: 100vh;
+  padding-top: 20rem;
+}
+
+.main-container-todopage{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.h1-todo-page{
+  align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  margin-bottom: 2.5rem;
+}
+
+.h2-todo-page{
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  margin-bottom: 3rem;
+}
+
+.h5-todo-page{
+  grid-column-start: 2;
+  grid-column-end: 12;
+  margin-bottom: 3rem;
+}
+
+.line-container-todo-page-one{
+  border-top: 1px solid gray;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  margin-bottom: 7rem;
+}
+
+.see-tasks-container{
+  grid-column-start: 2;
+  grid-column-end: 8;
+  margin-bottom: 3rem;
+}
+
+.add-task-container{
+  grid-column-start: 9;
+  grid-column-end: 12;
+  margin-bottom: 10rem;
+}
+
+.add-task-container h4{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.add-task-container .h4-line-container{
+  border-bottom: 1px solid gray;
+  margin-bottom: 3rem;
+}
+
+.task-container{
+  /* grid-row-start: 4; */
+  /* grid-column-start: 2; */
+  /* grid-column-end: 12; */
+}
+
+.add-task-container{
+  /* grid-column-start: 9; */
+  /* grid-column-end: 12; */
+}
+
+.add-task-container h4{
+  /* margin: 3rem 0; */
+}
+
+.line-container-todo-page-two{
+  border-top: 1px solid gray;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  margin-bottom: 4rem;
+}
+
+footer{
+  /* background-color: red; */
+  /* grid-column-start: 1; */
+  /* grid-column-end: 13; */
+  /* height: 10rem; */
+  /* height: 50vh; */
+  /* margin-top: auto; */
+}

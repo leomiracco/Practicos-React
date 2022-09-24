@@ -1,4 +1,5 @@
 export const taskListReducer = (initialState = [], action)=>{
+  
   switch (action.type) {
     case 'addTask':
       if(JSON.parse(localStorage.getItem('taskList')).length > 0){

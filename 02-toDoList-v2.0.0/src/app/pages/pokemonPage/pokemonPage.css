@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "pokemon-hollow";
+  src: url("../../../../assets/font/pokemon-hollow.ttf");
+  font-family: "pokemon-solid";
+  src: url("../../../../assets/font/pokemon-solid.ttf");
+}
+
+.main-pokepage{
+  /* background-color: hsl(350, 100%, 93%); */
+  background-color: hsl(43, 100%, 80%);
+  color: hsl(224, 99%, 37%);
+  /* background-color: green; */
+  font-family: pokemon-solid;
+  letter-spacing: 0.3rem;
+  min-height: 100vh;
+  padding-top: 20rem;
+}
+
+.main-container-pokepage{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.h1-title-poke{
+  align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  justify-content: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.line-container-poke-one{
+  border-bottom: 1px solid gray;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  margin-bottom: 5rem;
+}
+
+.form-pokepage{
+  /* align-items: center; */
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.form-pokepage label{
+  margin-right: 2rem;
+}
+
+.poke-input{
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 50%);
+  font-size: 1.7rem;
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+}
+
+.poke-input::placeholder {
+  font-family: pokemon-solid;
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+}
+
+.form-pokepage button{
+  border: 1px solid hsl(0, 0%, 50%);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: pokemon-solid;
+  letter-spacing: 0.3rem;
+  padding: 1rem 1.5rem;
+}
+
+.show-poke-container{
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  justify-content: center;
+  margin-bottom: 5rem;
+  padding: 3rem;
+}
+
+.img-container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.img-container img{
+  height: 15rem;
+  width: 15rem;
+}
+
+/* .error-container{
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 11;
+  justify-content: center;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.standby-container,
+.error-container{
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 11;
+  justify-content: center;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+.description-input{
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 50%);
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.description-input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons{
+  background-color: hsl(350, 100%, 93%);
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 50%);
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.buttons:hover{
+  background-color: hsl(350, 100%, 80%);
+  color: white;
+}

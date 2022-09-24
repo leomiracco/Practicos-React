@@ -1,0 +1,25 @@
+.main-homepage{
+  background-color: hsl(350, 100%, 93%);
+  min-height: 100vh;
+  padding-top: 20rem;
+}
+
+.main-container-homepage{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.h1-title-home{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.line-container-homepage{
+  border-bottom: 1px solid gray;
+  grid-column-start: 2;
+  grid-column-end: 12;
+}

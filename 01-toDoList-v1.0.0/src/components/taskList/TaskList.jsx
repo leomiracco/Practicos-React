@@ -1,4 +1,4 @@
-import { TaskItem } from "../../components";
+import { TaskItem } from "../";
 import "./taskList.css";
 
 export const TaskList = ({taskList = [], onRemoveTask})=>{

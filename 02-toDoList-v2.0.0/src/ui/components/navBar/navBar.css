@@ -1,0 +1,67 @@
+.navbar{
+  align-items: center;
+  background-color: hsl(0, 0%, 15%);
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+
+  grid-column-start: 1;
+  grid-column-end: 13;
+  /* justify-content: space-between; */
+  /* padding: 0 2rem; */
+  position: fixed;
+}
+
+.navbar .image-container{
+  grid-column-start: 2;
+  /* grid-column-end: 3; */
+}
+
+.navbar .image-container a{
+  align-items: center;
+  /* border: 1px solid green; */
+  display: flex;
+  
+  justify-content: start;
+}
+
+.navbar .image-container a img{
+  /* background-color: hsl(240, 100%, 80%); */
+  /* display: flex; */
+  /* border: 1px solid green; */
+  height: 100%;
+  width: 100%;
+}
+
+.navbar .navigation-container{
+  align-items: center;
+  /* border: 1px solid green; */
+  display: flex;
+  /* grid-column-start: 7; */
+  grid-column-end: 18;
+  justify-content: space-between;
+  width: 8.5rem;
+}
+@media (min-width: 320px) {
+  .navbar .navigation-container{
+    width: 18rem;
+  }
+}
+
+.navbar .navigation-container a{
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+@media (min-width: 320px) {
+  .navbar .navigation-container a{
+    font-size: 2.5rem;
+  }
+}
+
+.navbar .navigation-container .todo{
+
+}
+
+.navbar .navigation-container .pokemon{
+
+}

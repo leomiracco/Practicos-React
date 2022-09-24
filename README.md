@@ -4,6 +4,6 @@ Todos correspondientes a Javascript.
 
 ./01-React ---> https://sweet-crisp-751c4d.netlify.app/
 
-./02-React ---> 
+./02-React ---> https://roaring-cannoli-545aee.netlify.app/
 
 ./03-React ---> 
