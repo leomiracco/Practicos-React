@@ -1,10 +1,10 @@
 @font-face {
   font-family: "pokemon-hollow";
-  src: url("../../../../assets/font/pokemon-hollow.ttf");
+  src: url("../../../../public/assets/font/pokemon-hollow.ttf");
   font-family: "pokemon-solid";
-  src: url("../../../../assets/font/pokemon-solid.ttf");
+  src: url("../../../../public/assets/font/pokemon-solid.ttf");
 }
-
+/* ./assets/font/pokemon-solid.ttf */
 .main-pokepage{
   /* background-color: hsl(350, 100%, 93%); */
   background-color: hsl(43, 100%, 80%);

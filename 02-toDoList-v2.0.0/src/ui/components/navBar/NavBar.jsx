@@ -4,12 +4,14 @@ import './navBar.css';
 
 export const NavBar = ()=>{
 
+  const img = `./assets/img/logo-white.png`;
+
   return (
     <nav className="navbar">
 
       <div className="image-container">
         <NavLink to="/">
-          <img src="../../../assets/img/logo-white.png" alt="logo-work" />
+          <img src={`${img}`} alt="logo-work" />
         </NavLink>
       </div>
 
